@@ -1,0 +1,3 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "MK Netlify CMS test"
