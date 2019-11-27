@@ -11,3 +11,7 @@ If the directory is not empty, might have a *.git* folder and/or a README file `
 So you need to force it: from outside the site use:
 
 `hugo new site foldername --force`
+
+## Links
+
+This site was created using the instuctions on [Netlify for Hugo](https://www.netlifycms.org/docs/hugo/)

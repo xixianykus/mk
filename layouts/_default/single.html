@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Title}} | {{ .Site.Title}}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    {{ partial "header" . }}
+    <main>
+        <h1>{{.Title}}</h1>
+        <time>{{.Date}}</time>
+
+        <div class="summary">PAGE SYNOPIS {{.Summary}}</div>
+        {{.Content}}
+        <!-- This is a Hugo variable to grab the content from the MD files -->
+    </main>
+
+        {{ partial "footer" . }}
+        <!-- This grabs the code from partials/footer.html -->
+</body>
+
+</html>

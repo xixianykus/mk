@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>List page {{.Title}}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class={{ replace .Name " " "-" }}>
+
+    {{ partial "header" . }}
+    <main>
+
+
+        <h1>This list page title is: {{.Title}}</h1>
+
+        {{ .Content }}
+
+        <!-- This content comes from any _index.md files which are landing pages for specific folders -->
+
+        {{ range .Pages }}
+
+        <!-- range is a Hugo function. It says I want to range over all of the pages in this section of the site -->
+
+        <ul class="listpage">
+            <li><a href="{{.URL}}">{{.Title}}</a><br>{{ .Summary }}</li>
+        </ul>
+        {{ end }}
+    </main>
+
+    {{partial "footer" . }}
+</body>
+
+</html>
