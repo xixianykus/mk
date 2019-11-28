@@ -68,3 +68,10 @@ collections: # A list of collections the CMS should be able to edit
                 name: text
                 widget: text
 ```
+
+
+## GitLab and publish_mode
+
+Publish mode allows one to save drafts. However GitLab does not support this feature of Netlab CMS
+
+`publish_mode: editorial_workflow`
