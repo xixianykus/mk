@@ -1,10 +1,36 @@
 body {
     font-family: 'segoe ui', sans-serif;
-    color: #fff;
-    background-color: rgb(0, 102, 255);
+    color: #252525;
+    background-color: lavender;
+    margin: 0;
+    min-height: 100%;
+}
+.container {
+    background-color: rgb(253, 208, 249);
+}
+
+main {
+    min-height: calc(100vh - 250px);
+    padding: 2em;
 }
 
 h1 {
     font-weight: normal;
     font-size: 4em;
+}
+
+footer, header {
+    background-color: rgb(0, 102, 255);
+    padding: 30px;
+}
+
+
+footer a,
+header a,
+footer a:link,
+header a:link,
+footer a:visited,
+header a:visited {
+    color: #fff;
+    text-decoration: none;
 }

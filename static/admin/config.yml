@@ -3,6 +3,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow # hopefully will allow drafts
+display_url: https://mariannakeen.netlify.com  # displays the url in the CMS interface
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -16,3 +18,14 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+  - label: 'Pages'
+  - files:
+    -file: content/about.md
+    name: "about"
+    label: "About"
+    fields:
+      - {label: title, name: Title, widget: string}
+      - {label: Image, name: image, widget: image}
+
+    

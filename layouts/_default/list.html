@@ -9,27 +9,29 @@
 
 <body class={{ replace .Name " " "-" }}>
 
-    {{ partial "header" . }}
-    <main>
+    <div class="container">
+        {{ partial "header" . }}
+        <main>
 
 
-        <h1>This list page title is: {{.Title}}</h1>
+            <h1>{{.Title}} (list page)</h1>
 
-        {{ .Content }}
+            {{ .Content }}
 
-        <!-- This content comes from any _index.md files which are landing pages for specific folders -->
+            <!-- This content comes from any _index.md files which are landing pages for specific folders -->
 
-        {{ range .Pages }}
+            {{ range .Pages }}
 
-        <!-- range is a Hugo function. It says I want to range over all of the pages in this section of the site -->
+            <!-- range is a Hugo function. It says I want to range over all of the pages in this section of the site -->
 
-        <ul class="listpage">
-            <li><a href="{{.URL}}">{{.Title}}</a><br>{{ .Summary }}</li>
-        </ul>
-        {{ end }}
-    </main>
+            <ul class="listpage">
+                <li><a href="{{.URL}}">{{.Title}}</a><br>{{ .Summary }}</li>
+            </ul>
+            {{ end }}
+        </main>
 
-    {{partial "footer" . }}
+        {{partial "footer" . }}
+    </div>
 </body>
 
 </html>
