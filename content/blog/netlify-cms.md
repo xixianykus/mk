@@ -16,7 +16,7 @@ Details on how to congfigure this file are [here](https://www.netlifycms.org/doc
 
 Here's an extract from the all important *collections* part of a Netlify CMS YAML file:
 
-```
+```yml
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"

@@ -4,8 +4,10 @@ backend:
 media_folder: static/img
 public_folder: /img
 display_url: https://mariannakeen.netlify.com  # displays the url in the CMS interface
-# publish_mode: editorial_workflow # hopefully will allow the use of draft edits
 site_url: https://mariannakeen.netlify.com # used by the CMS for various things
+# publish_mode: editorial_workflow # hopefully will allow the use of draft edits
+media_folder: "static/images"
+public_folder: "/images"  # this where images are found in the published site. img src= use this path.
 collections:
   - name: 'blog'
     label: 'Blog'
