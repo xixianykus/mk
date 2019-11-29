@@ -6,3 +6,5 @@ draft: true
 
 Setting up Hugo...
 
+## Links
+1. [Setup Netlify CMS w Hugo](https://www.netlifycms.org/docs/hugo/)
