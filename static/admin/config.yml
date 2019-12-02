@@ -6,6 +6,7 @@ site_url: https://mariannakeen.netlify.com # used by the CMS for various things
 # publish_mode: editorial_workflow # hopefully will allow the use of draft edits
 media_folder: "static/images"
 public_folder: "/images"  # this where images are found in the published site. img src= use this path.
+publish_mode: editorial_workflow
 collections:
   - name: 'blog'
     label: 'Blog'

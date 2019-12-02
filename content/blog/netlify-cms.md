@@ -4,6 +4,7 @@ date: 2019-11-28
 draft: true
 categories: "CMS"
 tags: ["netlify", "CMS", "hugo"]
+summary: "An example of the Netlify CMS config file."
 ---
 
 ## Netlify CMS
