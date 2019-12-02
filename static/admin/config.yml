@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
 display_url: https://mariannakeen.netlify.com  # displays the url in the CMS interface
 site_url: https://mariannakeen.netlify.com # used by the CMS for various things
 # publish_mode: editorial_workflow # hopefully will allow the use of draft edits
