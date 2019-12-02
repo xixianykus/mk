@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+{{ define "main" }}
 
-<head>
-    <meta charset="UTF-8">
-    <title>{{.Title}} | {{ .Site.Title}}</title>
-    <link rel="stylesheet" href="/css/main.css">
-</head>
+    {{ partial "header" . }}
 
-<body>
-    <div class="container">
-        {{ partial "header" . }}
-        <main>
-            <h1>{{.Title}}</h1>
-            <time>{{.Date}}</time>
+    <main>
+        <h1>{{ .Title }}</h1>
+        <time>Created {{ .Date.Format "Monday, 15.04, 2 January, 2006" }}</time>
+                
+        {{ .Content }}
+        <!-- This is a Hugo variable to grab the content from the MD files -->
+    </main>
 
-            <div class="summary">PAGE SYNOPIS {{.Summary}}</div>
-            {{.Content}}
-            <!-- This is a Hugo variable to grab the content from the MD files -->
-        </main>
-        
-        {{ partial "footer" . }}
-        <!-- This grabs the code from partials/footer.html -->
-    </div>
-</body>
+    {{ partial "footer" . }}
 
-</html>
+    <!-- This grabs the code from partials/footer.html -->
+
+{{ end }}

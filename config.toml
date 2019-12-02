@@ -1,3 +1,13 @@
 baseURL = "http://mariannakeen.netlify.com/"
 languageCode = "en-us"
 title = "Marianna Keen"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "autumn"
+    tabWidth = 4

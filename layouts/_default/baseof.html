@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>{{ .Title }} | {{ .SiteTitle }}</title>
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-    
+
+<body class="{{ replace .Name " " "-" }}">
+
+        <div class="container">
+
+        {{ block "main" . }}
+
+        {{ end }}
+    </div>
 </body>
+
 </html>

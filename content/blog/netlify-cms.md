@@ -2,6 +2,8 @@
 title: "Netlify Cms"
 date: 2019-11-28
 draft: true
+categories: "CMS"
+tags: ["netlify", "CMS", "hugo"]
 ---
 
 ## Netlify CMS
