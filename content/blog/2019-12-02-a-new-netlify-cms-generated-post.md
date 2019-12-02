@@ -7,6 +7,4 @@ So this a quick post to see whether draft mode is working.
 
 Seems like it is working but hard to get text beyond the image...
 
-
-
 ![theropod](/images/artboard-1.png "theropod image")
