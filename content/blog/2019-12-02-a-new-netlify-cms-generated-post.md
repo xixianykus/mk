@@ -5,6 +5,8 @@ description: Quick post to see if draft mode works
 ---
 So this a quick post to see whether draft mode is working.
 
-Seems like it is working but hard to get text beyond the image...
-
 ![theropod](/images/artboard-1.png "theropod image")
+
+Seems like it is working but hard to get text beyond the image, unless you edit in Markdown.
+
+No sign of any draft mode but no error either. Maybe have to log out first?
