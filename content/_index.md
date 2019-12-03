@@ -1,10 +1,10 @@
 ---
-title: "Home Page"
+title: Home Page
 ---
+Welcome to mariannakeen.com
 
+If you would like to hire my services or contact me please email: keenmarianna at hotmail.co.uk
 
-Welcome to the home page....
+Meanwhile here's an image
 
-If you would like to hire my services or contact me please email: keenmarianna@hotmail.co.uk
-
-This should be on GitHub now.
+![flying low](/images/tfr-plane-1.jpg "On the wing")
