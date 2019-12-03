@@ -1,5 +1,5 @@
 ---
-title: "Netlify Cms"
+title: "Netlify CMS"
 date: 2019-11-28
 draft: true
 categories: "CMS"
@@ -7,11 +7,10 @@ tags: ["netlify", "CMS", "hugo"]
 summary: "An example of the Netlify CMS config file."
 ---
 
-## Netlify CMS
 
-This is an independent, open source project, that can be used on Netlify and anywhere else. The hope is it will become the JamStack equivalent to Wordpress.
+>> This is an independent, open source project, that can be used on Netlify and anywhere else. The hope is it will become the JamStack equivalent to Wordpress.
 
-See [NetlifyCMS.org](https://www.netlifycms.org/) for more.
+>> --[NetlifyCMS.org](https://www.netlifycms.org/) for more.
 
 Configuration is done using the `static/admin/config.yml` file.
 

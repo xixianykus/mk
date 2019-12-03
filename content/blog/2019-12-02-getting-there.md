@@ -14,3 +14,10 @@ There is a save button that you use first. Then there is the *set status* dropdo
  Choose ready in order to publish. Then you can press the publish dropdown and choose *publish now*.
 
 **NB. These buttons are not visible until saved.**
+
+## Things to do with the CMS
+
+1. Get the other pages working
+2. Remove the date from the slugs
+3. Get tags and categories working - choose the right widget
+4. Custom CSS for CMS
