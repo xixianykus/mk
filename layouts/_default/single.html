@@ -4,10 +4,16 @@
 
     <main>
         <h1>{{ .Title }}</h1>
-        <time>Created {{ .Date.Format "Monday, 15.04, 2 January, 2006" }}</time>
+        <time>Created on {{ .Date.Format "Monday, 2 January, 2006" }}</time>
+
+        <div class="wordcount">
+            <div>Words: {{ .WordCount }}</div>
+            <div>Reading time: {{ .ReadingTime }} min</div>
+        </div>
                 
         {{ .Content }}
         <!-- This is a Hugo variable to grab the content from the MD files -->
+        
     </main>
 
     {{ partial "footer" . }}
