@@ -5,8 +5,9 @@
     --headbg: #a1977a;
     --bodyColor: #303438;
     --bgColor: #fffefd;
-    --mainBlocksColor: rgb(189, 177, 166);
+    --mainBlocksColor: rgb(152, 141, 131);
     --headingFont: 'Oswald', sans-serif;
+    --headingColor: #0effe8;
 }
 
 *,
@@ -18,7 +19,7 @@ html {font-size: clamp(15px, 1.4vw, 26px);}
 
 
 body {
-    font-family: 'Roboto Slab', 'segoe ui', sans-serif;
+    font-family: Cardo, georgia, serif;
     font-weight: 400;
     line-height: 1.45;
     /* color: var(--bodyColor); */
@@ -87,15 +88,17 @@ aside nav ul {
     padding: 0 24px;
     line-height: 1.7;
     text-align: right;
+    text-transform: uppercase;
 }
 
 aside nav ul a {
 color: var(--bgColor);
-transition: 0.7s;
+transition: 0.4s;
 }
 
 aside nav ul a:hover {
-    color: orangered;
+    color: var(--headingColor);
+    border-bottom: 4px solid;
 }
 
 
@@ -116,6 +119,13 @@ footer a:visited,
 header a:visited {
     color: var(--mainBlocksColor);
 }
+
+
+
+
+
+/* ---------- FONTS -----------
+ */
 
 p {margin-bottom: 1.25em;}
 
@@ -153,7 +163,8 @@ small, .text_small {font-size: 0.8em;}
 .wordcount {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid;
+    padding-bottom: 0.3em;
     margin-top: 1em;
 }
 
