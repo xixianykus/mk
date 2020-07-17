@@ -7,6 +7,10 @@
 
         <div class="container">
 
+        {{ partial "header" . }}
+
+        {{ partial "sidebar" . }}
+
         {{ block "main" . }}
 
         {{ end }}
