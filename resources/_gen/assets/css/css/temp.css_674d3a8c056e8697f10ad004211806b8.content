@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(138, 127, 96);
+    color: white;
+    font-family: Bitter;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0ZGluIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBO0lBQ0ksbUNBQTRCO0lBQzVCLFlBQVk7SUFDWixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3RkaW4iLCJzb3VyY2VzQ29udGVudCI6WyI6cm9vdCB7XHJcbiAgICAtLWJnYzogcmdiKDEzOCwgMTI3LCA5Nik7XHJcbn1cclxuXHJcbmJvZHkge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYmdjKTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtZmFtaWx5OiBCaXR0ZXI7XHJcbn0iXX0= */

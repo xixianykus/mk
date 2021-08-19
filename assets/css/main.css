@@ -19,10 +19,9 @@ html {font-size: clamp(15px, 1.4vw, 26px);}
 
 
 body {
-    font-family: Cardo, georgia, serif;
+    font-family: Bitter, georgia, serif;
     font-weight: 400;
     line-height: 1.45;
-    /* color: var(--bodyColor); */
     background-color: var(--bgColor);
     margin: 0;
     min-height: 100%;
@@ -125,17 +124,22 @@ header a:visited {
 
 
 
-/* ---------- FONTS -----------
- */
+/* ---------- FONTS ----------- */
 
-p {margin-bottom: 1.25em;}
+
+p {margin-bottom: 1.25em;
+}
 
 p, li, blockquote {
     max-width: 45em;
 }
+main p, main li, time, .wordcount, pre, code {
+    font-size: .8em;
+}
 
 h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1rem;
+  /* margin: 2.75rem 0 1rem; */
+  margin-bottom: 0;
   font-family: var(--headingFont);
   font-weight: 400;
   line-height: 1.15;
@@ -169,8 +173,22 @@ small, .text_small {font-size: 0.8em;}
     margin-top: 1em;
 }
 
+.highlight {
+    /* overflow-x: scroll; */
+    overflow-x: hidden;
+    max-width: 650px;
+}
+.highlight:hover {
+    max-width: 100%;
+    cursor: pointer;
+}
 pre {
     padding: 0.5em;
+    white-space: pre-wrap;
+}
+pre, code {
+    font-family: 'Roboto Mono', georgia;
+    font-size: 90%;
 }
 
 img {

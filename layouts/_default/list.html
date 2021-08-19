@@ -17,7 +17,12 @@
             
             <ul class="listpage">
                 {{ range .Pages }}
-                <li><a href="{{.Permalink}}">{{.Title}}</a><br>{{ .Summary }}</li>
+                <li>
+                    <a href="{{.Permalink}}">{{.Title}}<br>
+                    <time>{{ .Date.Format "Mon 2 Jan 06" }}</time>
+                    <br>{{ .Summary }}
+                    </a>
+                </li>
                 {{ end }}
             </ul>
         </main>

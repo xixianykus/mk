@@ -1,4 +1,14 @@
 <footer>
     <div>Marianna Keen &copy{{ now.Year }}</div>
-        <div>Built with Hugo v.{{ hugo.Version }}</div>
+    <div>
+        {{ if .IsHome }}
+        Last Site Update {{ .Site.LastChange.Format "2 Jan 06" }}
+        {{ else if .Section }}
+        This is a Section
+        {{ else }}
+        Page Update {{ .Date.Format "Sunday January 2 2006" }}
+        {{ end }}
+    
+    </div>
+        <div>Built with <a href="https://www.gohugo.io/">Hugo v.{{ hugo.Version }}</a></div>
 </footer>

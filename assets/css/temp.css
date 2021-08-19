@@ -1,0 +1,9 @@
+:root {
+    --bgc: rgb(138, 127, 96);
+}
+
+body {
+    background-color: var(--bgc);
+    color: white;
+    font-family: Bitter;
+}

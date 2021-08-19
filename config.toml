@@ -1,6 +1,9 @@
-baseURL = "http://mariannakeen.netlify.com/"
+baseURL = "https://mariannakeen.netlify.com/"
 languageCode = "en-us"
 title = "Marianna Keen"
+enableGitInfo = true
+enableEmoji = true
+
 [markup]
   [markup.highlight]
     codeFences = true
@@ -9,5 +12,5 @@ title = "Marianna Keen"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "autumn"
+    style = "solarized-light"
     tabWidth = 4
