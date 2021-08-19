@@ -1,9 +1,11 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-display_url: https://mariannakeen.netlify.com  # displays the url in the CMS interface
-site_url: https://mariannakeen.netlify.com # used by the CMS for various things
-# publish_mode: editorial_workflow # hopefully will allow the use of draft edits
+local_backend: true
+display_url: https://mariannakeen.netlify.app  # displays the url in the CMS interface
+site_url: https://mariannakeen.netlify.app # used by the CMS for various things
+publish_mode: editorial_workflow # hopefully will allow the use of draft edits
+logo_url: https://mariannakeen.netlify.app/images/artboard-1.png
 media_folder: "static/images"
 public_folder: "/images"  # this where images are found in the published site. img src= use this path.
 collections:
@@ -14,7 +16,7 @@ collections:
 #    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -22,19 +24,13 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
-    files:
-      - file: 'content/_index.md'
-        label: 'Home Page'
-        name: 'home'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
-      - file: 'content/about.md'
-        label: 'About Page'
-        name: 'about'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
+    folder: 'content'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown'}
+
+
 #    create: false
 #    slug: '{{slug}}'
 #    editor:
