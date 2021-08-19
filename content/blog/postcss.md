@@ -5,6 +5,10 @@ draft: true
 summary: "First experience with Post CSS using postcss-cssnext"
 ---
 
+## Update
+
+After the site stopped working I changed the `<link>` in the  `<head>` section to use `$css` rather than the complied PostCSS `$style`. 
+
 ## Important
 
 This did not work because the final link was wrong. It needs `$style.Permalink` rather than piping to a `relURL`.

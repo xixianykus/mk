@@ -7,6 +7,8 @@ summary: "A good font pairing link for Google fonts"
 
 Thought this article was helpful along with colours too: [Best Google Font combinations](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/)
 
+![Font Pairing website](/images/font-pairing.png)
+
 ## This site
 
 ... is using Oswald (headings) and Bitter and Roboto Mono.

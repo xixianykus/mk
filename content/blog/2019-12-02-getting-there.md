@@ -1,5 +1,5 @@
 ---
-title: Getting There
+title: Progress and To Do's
 date: 2019-12-02T21:02:42.251Z
 summary: Quick post to check the summary frontmatter is working
 ---

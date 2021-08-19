@@ -2,7 +2,9 @@
 
     <main>
         <h1>{{ .Title }}</h1>
-        <time>Created on {{ .Date.Format "Monday, 2 January, 2006" }}</time>
+        {{ $last := .Lastmod.Format "2.1.2006" }}
+        {{ $created := .Date.Format "2.1.2006" }}
+        <time>Created on {{ .Date.Format "Monday, 2 January, 2006" }} {{ if ne $last $created }}<em>&mdash;Updated on: {{ $last }}</em>{{ end }}</time>
 
         <div class="wordcount">
             <div>Words: {{ .WordCount }}</div>

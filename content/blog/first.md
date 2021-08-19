@@ -1,5 +1,5 @@
 ---
-title: First
+title: Forcing A New Hugo Site
 date: 2019-11-26T22:43:31.000Z
 summary: A first post with How to create a new Hugo site in an existing folder
 ---
