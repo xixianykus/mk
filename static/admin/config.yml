@@ -1,12 +1,17 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-local_backend: true
+# local_backend: true # used to allow edits of local repo
 display_url: https://mariannakeen.netlify.app  # displays the url in the CMS interface
 site_url: https://mariannakeen.netlify.app # used by the CMS for various things
 publish_mode: editorial_workflow # hopefully will allow the use of draft edits
 logo_url: https://mariannakeen.netlify.app/images/artboard-1.png
 media_folder: "static/images"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: gyrotinne
+    api_key: 884814195456424
 public_folder: "/images"  # this where images are found in the published site. img src= use this path.
 collections:
   - name: 'blog'
