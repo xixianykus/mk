@@ -31,6 +31,8 @@ collections:
     label: 'Pages'
     folder: 'content'
     create: true
+    editor:
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown'}
@@ -38,7 +40,5 @@ collections:
 
 #    create: false
 #    slug: '{{slug}}'
-#    editor:
-#      preview: false
 
     
