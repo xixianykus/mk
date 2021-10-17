@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Netlify Cms"
 date: 2021-10-17T17:03:45+01:00
-draft: true
+draft: false
 summary: "Some notes on setting up Netlify CMS"
 ---
 
