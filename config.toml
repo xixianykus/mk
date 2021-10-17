@@ -4,6 +4,8 @@ title = "Marianna Keen"
 enableGitInfo = true
 enableEmoji = true
 
+[taxonomies]
+
 [markup]
   [markup.highlight]
     codeFences = true
