@@ -13,6 +13,28 @@
                 
         {{ .Content }}
         <!-- This is a Hugo variable to grab the content from the MD files -->
+
+        {{ with .Params.location.name }}
+            <h1>{{ . }}</h1>
+        {{ end }}
+
+        {{ with .Params.address }}
+        <h2>Address</h2>
+        <p>
+            {{ .line_1 }}, {{ .town }}
+        </p>
+            
+        {{ end }}
+
+        {{ with .Params.Tags }}
+            <div class="tags">
+                <ul>
+                    {{ range . }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
         
     </main>
 

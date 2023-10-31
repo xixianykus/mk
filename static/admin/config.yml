@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
@@ -7,12 +9,14 @@ site_url: https://mariannakeen.netlify.app # used by the CMS for various things
 publish_mode: editorial_workflow # hopefully will allow the use of draft edits
 logo_url: https://mariannakeen.netlify.app/images/artboard-1.png
 media_folder: "static/images"
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: gyrotinne
-    api_key: 884814195456424
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: gyrotinne
+#     api_key: 884814195456424
 public_folder: "/images"  # this where images are found in the published site. img src= use this path.
+
+
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -26,7 +30,30 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - label: 'address'
+        name: 'Address'
+        widget: 'object'
+        required: false
+        fields:
+         - label: 'Name'
+           name: 'name'
+           widget: 'string'
+           required: false
+         - label: 'First line'
+           name: 'line_1'
+           widget: 'string'
+         - label: 'Town'
+           name: 'town'
+           widget: 'string'
+      - label: 'featured image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        # media_folder: '/images/'
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
   - name: 'pages'
     label: 'Pages'
     folder: 'content'

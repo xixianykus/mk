@@ -1,10 +1,11 @@
 baseURL = "https://mariannakeen.netlify.com/"
 languageCode = "en-us"
-title = "Marianna Keen"
+title = "TESTSITE ZERO"
 enableGitInfo = true
 enableEmoji = true
 
 [taxonomies]
+tag = "tags"
 
 [markup]
   [markup.highlight]

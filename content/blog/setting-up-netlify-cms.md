@@ -3,6 +3,7 @@ title: "Setting Up Netlify CMS"
 date: 2021-10-17T17:03:45+01:00
 draft: false
 summary: "Some notes on setting up Netlify CMS"
+tags: [Netlify CMS]
 ---
 
 Although Netlify CMS is an open source project it is, at this time, easier to set up with a Netlify account and also from GitHub.

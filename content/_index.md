@@ -1,8 +1,8 @@
 ---
 title: Home
 ---
-Welcome to mariannakeen.com
+Welcome to {{< site-title >}}
 
-If you would like to hire my services or contact me please email: keenmarianna&nbsp;at&nbsp;hotmail.co.uk
+This site is now going to be used to test things like NPM, Vite, Post CSS, build tools, JS libraries, Netlify CMS, other CMS's etc..
 
 
