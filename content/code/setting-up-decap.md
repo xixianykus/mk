@@ -1,12 +1,14 @@
 ---
-title: "Setting Up Netlify CMS"
+title: "Setting Up Decap CMS"
 date: 2021-10-17T17:03:45+01:00
 draft: false
-summary: "Some notes on setting up Netlify CMS"
-tags: [Netlify CMS]
+summary: "Some notes on setting up Decap CMS"
+tags: [Decap CMS]
 ---
 
-Although Netlify CMS is an open source project it is, at this time, easier to set up with a Netlify account and also from GitHub.
+**This article was originally about Netlify CMS**
+
+Although Decap CMS is an open source project it is, at this time, easier to set up with a Netlify account and also from GitHub.
 
 The Netlify account makes it easier to set up authentication from GitHub. You can find this in the Netlify interface under the `Identity/Danger zone` section of the specific site. You need to enable the Git Gateway here and provide a GitHub api access token. 
 

@@ -1,11 +1,11 @@
 ---
 title: Local CMS
 date: 2020-07-17T14:03:16+01:00
-draft: true
-summary: Running Netlify CMS locally
+draft: false
+summary: Running Decap CMS locally
 tags:
   - git
-  - Netlify CMS
+  - Decap CMS
   - badger
   - fox
 Address:
@@ -13,11 +13,11 @@ Address:
   town: fuck off
 image: /images/ravenstor-green-alternative.jpg
 ---
-![](/images/tideswell-dale.jpg)
+![Tideswell Dale](/images/tideswell-dale.jpg)
 
-You can run Netlify CMS locally through the Hugo server. However first you must run the Netlify proxy server. 
+You can run Decap CMS locally through the Hugo server. However first you must run the Netlify proxy server. 
 
-1. Add the line: `local_backend: true` as the very first line of your Netlify CMS's config file.
+1. Add the line: `local_backend: true` as the very first line of your Decap CMS's config file.
 2. Make sure Node JS installed
 3. Run `npx netlify-cms-proxy-server` from the root of your project
 4. Run `hugo server`

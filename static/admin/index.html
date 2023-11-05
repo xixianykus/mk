@@ -6,54 +6,10 @@
     <title>Content Manager | Marianna Keen</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <style>
-      @media screen and (prefers-color-scheme: dark) {
-            body,
-            #nc-root,
-            .css-2oej7z-ToolbarContainer {
-              background-color: rgb(34, 92, 252) !important;
-            }
-            .css-y7r3-AppHeader {
-              background-color: rgb(30, 57, 133) !important;
-            }
-
-            /* background for new posts */
-            .css-f3a0ud-NoPreviewContainer-card-splitPane,
-            .SplitPane,
-            .css-7d7n9g-StyledSplitPane-card-splitPane {
-            background-color: rgb(36, 98, 168) !important;
-            }
-            }
-
-
-          /* the boxes */
-          .css-5wgw3f-ListCard-card,
-          .css-1hvrgvd-CollectionTopContainer-card-cardTop,
-          .css-1gj57a0-SidebarContainer-card,
-          .css-12vfcwo /* for editing posts body bg */ {
-            background-color: rgb(40, 128, 228) !important;
-          }
-          
-          .eab48an0:hover {
-            background-color: rgb(101, 160, 228) !important;
-          }
-          h1, h2, h3, h4, h5, h6, p {
-            color: rgb(209, 244, 247) !important;
-            }
-
-          /* New blog button */
-          .css-1qfk5ut-CollectionTopNewButton-button-default-gray {
-          background-color: rgb(255, 81, 0) !important;
-          transition: .5s;
-          }
-          .css-1qfk5ut-CollectionTopNewButton-button-default-gray:hover {
-          background-color: rgb(170, 26, 26) !important;
-          }
-    </style>
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
-    {{/*  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>  */}}
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+    {{/*  <!--  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script> --> */}}
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>

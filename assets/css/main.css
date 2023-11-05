@@ -190,6 +190,7 @@ pre {
 pre, code {
     font-family: 'Roboto Mono', georgia;
     font-size: 90%;
+    color: green;
 }
 
 img {

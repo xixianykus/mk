@@ -1,10 +1,8 @@
-
 {{ define "main" }}
 
 
         
         <main>
-
 
             <h1>{{ .Title }}</h1>
 
@@ -15,8 +13,10 @@
             
             <!-- range is a Hugo function. It says I want to range over all of the pages in this section of the site -->
             
+            <h2>Latest 12 posts</h2>
+
             <ul class="listpage">
-                {{ range first 6 .Pages }}
+                {{ range first 12 site.Pages }}
                 <li>
                     <a href="{{.Permalink}}">{{.Title}}<br>
                     <time>{{ .Date.Format "Mon 2 Jan 06" }}</time>
