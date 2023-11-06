@@ -1,7 +1,4 @@
-
 :root {
-    /* --headingColor: #02ca2d; */
-    /* --headerColor: rgb(38, 38, 39); */
     --bgColor: #fffefd;
     --mainBlocksColor: rgb(152, 141, 131);
     --bodyColor: var(--bgColor);
@@ -20,8 +17,6 @@
 
 @media (prefers-color-scheme: dark) {
 :root {
-	/* --headingColor: #02ca2d; */
-	/* --headerColor: rgb(38, 38, 39); */
 	--bgColor: #413d39;
 	--mainBlocksColor: rgb(40, 36, 30);
 	--headbg: #605946;

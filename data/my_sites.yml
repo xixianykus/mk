@@ -32,8 +32,9 @@
 - name: Duke Woodwork
   url: https://dukewoodwork.netlify.app
 
-- name: Ecosnout &starf;
-  url: https://www.ecosnout.tk/
+- name: Ecosnout
+  url: https://ecosnout.netlify.app/
+  status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/c9f93a03-b35e-4957-b5df-5400035d6be3/deploy-status)](https://app.netlify.com/sites/ecosnout/deploys)"
 
 - name: Empty
   url: https://xixianykus.gitlab.io/empty/

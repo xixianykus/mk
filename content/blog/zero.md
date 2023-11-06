@@ -33,4 +33,7 @@ It has now been renamed Test Site Zero and had a whole bunch of work done on it 
 - added caching to some partials using the `{{ partialCached }}` method.
 - added a [test section](/test/) for trying out things.
 - changed the url to [testsitezero.netlify.app](https://testsitezero.netlify.app)
-- list of some of my sites in the data section pulled into own page
+- list of some of my sites in the data section pulled into own page.
+
+
+{{< page-count >}}
