@@ -1,19 +1,18 @@
-{{ define "main" }}
-     
+{{- define "main" }}
         <main>
 
             <h1>{{ .Title }}</h1>
 
             {{ .Content }}
 
-            <!-- This content comes from any _index.md files which are landing pages for specific folders -->
-            
-            <h2>Latest 12 posts</h2>
 
+            <!-- This content comes from any _index.md files which are landing pages for specific folders -->
+           
             <ul class="listpage">
-                {{ range first 12 site.RegularPages }}
+                {{ range .Pages }}
                 <li>
-                    <a href="{{.Permalink}}">{{.Title}}<br>
+                    <a href="{{.Permalink}}">
+                        <strong>{{.Title}}</strong><br>
                     <time>{{ .Date.Format "Mon 2 Jan 06" }}</time>
                     <br>{{ .Summary }}
                     </a>
@@ -21,5 +20,4 @@
                 {{ end }}
             </ul>
         </main>
-
-{{ end }}
+        {{ end }}

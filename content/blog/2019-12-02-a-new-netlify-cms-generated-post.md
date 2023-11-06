@@ -2,6 +2,7 @@
 title: A new Netlify CMS generated post
 date: 2019-12-02T20:11:19.024Z
 summary: Quick post to see if draft mode works
+draft: true
 ---
 So this a quick post to see whether draft mode is working.
 

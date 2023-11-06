@@ -8,6 +8,7 @@ Address:
   line_1: 10 High Street
   town: Sheffield
 image: https://cdn.pixabay.com/photo/2013/06/15/23/15/patterns-139576_640.jpg
+draft: true
 ---
 ![pattern image](https://allhdwallpapers.com/wp-content/uploads/2016/07/Stripe-8.jpg "My bg pattern image")
 

@@ -1,24 +1,19 @@
 
-{{ define "main" }}
-
-
-        
+{{- define "main" }}
         <main>
-
 
             <h1>{{ .Title }}</h1>
 
             {{ .Content }}
 
-            <!-- This content comes from any _index.md files which are landing pages for specific folders -->
 
-            
-            <!-- range is a Hugo function. It says I want to range over all of the pages in this section of the site -->
-            
+            <!-- This content comes from any _index.md files which are landing pages for specific folders -->
+           
             <ul class="listpage">
-                {{ range first 6 .Pages }}
+                {{ range .RegularPages }}
                 <li>
-                    <a href="{{.Permalink}}">{{.Title}}<br>
+                    <a href="{{.Permalink}}">
+                        <strong>{{.LinkTitle}}</strong><br>
                     <time>{{ .Date.Format "Mon 2 Jan 06" }}</time>
                     <br>{{ .Summary }}
                     </a>
@@ -26,7 +21,6 @@
                 {{ end }}
             </ul>
         </main>
+        {{ end }}
 
-        {{ partial "footer" . }}
 
-{{ end }}

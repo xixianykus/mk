@@ -1,0 +1,9 @@
+<div class="my-sites">
+    {{ range site.Data.my_sites }}
+        <a href="{{ .url }}">{{ .name | safeHTML }}</a>
+        {{ with .status }}
+            {{ . | markdownify }}
+        {{ end }}
+        <br>
+    {{ end }}
+</div>

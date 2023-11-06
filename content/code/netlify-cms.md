@@ -1,10 +1,10 @@
 ---
-title: "Netlify CMS"
+title: "Decap CMS Config"
 date: 2019-11-28
 draft: true
 categories: "CMS"
-tags: ["netlify", "CMS", "hugo"]
-summary: "An example of the Netlify CMS config file."
+tags: ["netlify", "Decap CMS", "hugo"]
+summary: "An example of the Decap CMS config file."
 ---
 
 

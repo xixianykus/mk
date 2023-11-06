@@ -4,6 +4,7 @@ date: 2022-09-05T03:48:11.920Z
 summary: Trying out objects in the frontmatter
 tags: [CMS, Yaml]
 location.name: The Birdshop
+draft: true
 ---
 
 

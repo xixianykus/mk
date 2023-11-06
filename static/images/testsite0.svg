@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.59 354.46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 53.75px;
+        font-family: Oswald-DemiBold, Oswald;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f73421;
+      }
+
+      .cls-2 {
+        font-size: 276.34px;
+        font-family: Oswald-Heavy, Oswald;
+      }
+    </style>
+  </defs>
+  <title>testsite0</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <text class="cls-1" transform="translate(0 167.3)">TEST<tspan x="7.9" y="50.02">SITE</tspan></text>
+        <text class="cls-2" transform="translate(96.07 250.02)">0</text>
+      </g>
+    </g>
+  </g>
+</svg>

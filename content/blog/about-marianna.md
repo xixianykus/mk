@@ -3,6 +3,7 @@ title: "About"
 date: 2019-11-27
 draft: false
 summary: "A bit about me and what I do"
+draft: true
 ---
 
 I’m a professional journalist, writer and editor with experience in diverse topics from environmentalism to adventure sports. My broad range of interests is one of the reasons I got into journalism in the first place, alongside a desire to pique people’s awareness, curiosity and knowledge about important and relevant matters. I focus on writing about topics I’m passionate about and hope to offer new perspectives and inspiration to others.

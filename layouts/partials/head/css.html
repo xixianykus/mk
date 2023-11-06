@@ -1,0 +1,12 @@
+    {{/*  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">  */}}
+    {{ $css := resources.Get "css/main.css" }}
+    {{ $style := $css | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}">
+
+    {{- with .Params.css }}
+    <style>
+       {{ range . }}
+        {{ . | safeCSS }}
+       {{ end }} 
+    </style>
+    {{ end }}

@@ -1,4 +1,4 @@
-baseURL = "https://mariannakeen.netlify.com/"
+baseURL = "https://testsitezero.netlify.com/"
 languageCode = "en-us"
 title = "TESTSITE ZERO"
 enableGitInfo = true
@@ -12,8 +12,8 @@ tag = "tags"
     codeFences = true
     hl_Lines = ""
     lineNoStart = 1
-    lineNos = false
+    lineNos = true
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-light"
+    style = "hrdark"
     tabWidth = 4

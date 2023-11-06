@@ -2,6 +2,7 @@
 title: Prose.io Post
 date: 2019-12-02T00:00:00.000Z
 summary: A post on Prose.io
+draft: true
 ---
 Will frontmatter be generated? No. I had to add it myself. This is a real show stopper. If you can't create a new post without being able to add frontmatter you're not going anywhere.
 

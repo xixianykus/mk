@@ -2,12 +2,45 @@
 :root {
     /* --headingColor: #02ca2d; */
     /* --headerColor: rgb(38, 38, 39); */
-    --headbg: #a1977a;
-    --bodyColor: #303438;
     --bgColor: #fffefd;
     --mainBlocksColor: rgb(152, 141, 131);
-    --headingFont: 'Oswald', sans-serif;
+    --bodyColor: var(--bgColor);
+    --headbg: #a1977a;
     --headingColor: #0effe8;
+    --linkColor: #fff;
+    --visitedColor: var(--linkColor);
+    --hoverColor: var(--headingColor);
+    --headingFont: 'Oswald', sans-serif;
+    --boxColor: var(--bgColor);
+    --boxBgColor: rgb(139, 133, 120);
+    --boxHoverBg: orangered;
+    --dateColor: var(--headingColor);
+    --codeColor: goldenrod;
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+	/* --headingColor: #02ca2d; */
+	/* --headerColor: rgb(38, 38, 39); */
+	--bgColor: #413d39;
+	--mainBlocksColor: rgb(40, 36, 30);
+	--headbg: #605946;
+	--bodyColor: #c7b9b9;
+	--headingColor: #f73421;
+	--linkColor: #fff;
+	--visitedColor: var(--linkColor);
+	--footerLinkColor: var(--mainBlocksColor);
+	--footerVisitedColor: var(--linkColor);
+	--hoverColor: #1384fd;
+	--sidebarLinkColor: var(--bgColor);
+	--sidebarVisitedColor: var(--bgColor);
+	--boxColor: --bgColor;
+	--boxBgColor: rgb(56, 53, 49);
+	--boxHoverBg: #045dac;
+	--sitenameHover: var(--hoverColor);
+	--dateColor: #f9bd29;
+	--codeColor: rgb(231, 157, 63);
+}
 }
 
 *,
@@ -21,13 +54,19 @@ html {font-size: clamp(1rem, 0.7823rem + 0.9677vw, 1.75rem);}
 body {
     font-family: Bitter, georgia, serif;
     font-weight: 400;
-    line-height: 1.45;
+    line-height: 1.5;
     background-color: var(--bgColor);
     margin: 0;
     padding-inline: 3vw;
     min-height: 100%;
     /* display: grid; */
     /* justify-content: center; */
+    background-color: #413D39;
+/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23322827' stroke-width='6.1' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
+background-color: #413d39;
+/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%235e5c57' fill-opacity='0.74'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%235e5c57' fill-opacity='0.4' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%235e5c57' fill-opacity='0.19' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
 }
 
 
@@ -39,11 +78,12 @@ body {
     margin-block: 3vw;
     margin-inline: auto;
     width: min(1650px, 100%);
-    color: var(--bgColor);
+    color: var(--bodyColor);
 }
 
 .sitename {
     font-family: var(--headingFont);
+    font-weight: 500;
     letter-spacing: -2px;
     font-size: 2em;
     line-height: 1;
@@ -51,7 +91,7 @@ body {
 
 main {
     min-height: calc(90vh - 6vw);
-    padding: 2em;
+    padding: 3em 14% 1em 2em;
     padding-right: 14%;
 }
 
@@ -60,49 +100,27 @@ aside {
     background-color: var(--mainBlocksColor);
 }
 
-header {
+header.main {
     display: grid;
     align-items: baseline;
 }
 footer,
-header {
+header.main {
     grid-column: 1 / -1;
     color: var(--mainBlocksColor);
+}
+
+header.article {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     font-family: var(--headingFont);
+    font-weight: 500;
 }
-
-aside nav {
-    padding: 1px;
-    text-transform: lowercase;
-    font-family: var(--headingFont);
-    font-size: clamp(16px, 2.1vw, 32px);
-    border-radius: 24px;
-}
-
-aside nav ul {
-    list-style-type: none;
-    padding: 0 24px;
-    line-height: 1.7;
-    text-align: right;
-    text-transform: uppercase;
-}
-
-aside nav ul a {
-color: var(--bgColor);
-transition: 0.4s;
-}
-
-aside nav ul a:hover {
-    color: var(--headingColor);
-    border-bottom: 4px solid;
-}
-
-
 
 
 
@@ -110,16 +128,60 @@ aside nav ul a:hover {
 
 a {
     text-decoration: none;
+    transition: all 0.4s;
+    color: var(--linkColor)
+}
+a:visited {
+    color: var(--visitedColor);
+}
+a:hover {
+    color: var(--hoverColor);
 }
 
 footer a,
-header a,
+header.main a,
 footer a:link,
-header a:link,
+header.main a:link,
 footer a:visited,
-header a:visited {
-    color: var(--mainBlocksColor);
+header.main a:visited {
+    color: var(--footerLinkColor);
 }
+
+
+header.main a:hover,
+footer a:hover {
+    color: var(--hoverColor);
+}
+
+
+/* ----- Nav.sidebar ------- */
+
+aside nav {
+    padding: 1px;
+    text-transform: lowercase;
+    font-family: var(--headingFont);
+    font-size: clamp(16px, 2.1vw, 32px);
+    font-weight: 500;
+    border-radius: 24px;
+}
+
+aside nav ul {
+	margin-top: 2.3em;
+	padding: 0 24px;
+	list-style-type: none;
+	line-height: 1.7;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+aside nav ul :is(a, a:visited) {
+color: var(--bgColor);
+transition: 0.4s;
+}
+aside nav ul a:hover {
+    color: var(--hoverColor);
+}
+
 
 
 
@@ -128,13 +190,14 @@ header a:visited {
 /* ---------- FONTS ----------- */
 
 
-p {margin-bottom: 1.25em;
+p {
+    margin-bottom: 1.25em;
 }
 
 p, li, blockquote {
     max-width: 45em;
 }
-main p, main li, time, .wordcount, pre, code {
+main p, main li, .time-and-section, .wordcount, pre, code {
     font-size: .8em;
 }
 
@@ -161,23 +224,46 @@ h4 {font-size: 1.563em;}
 
 h5 {font-size: 1.25em;}
 
-small, .text_small {font-size: 0.8em;}
+small, 
+.text_small {
+    font-size: 0.7em;
+    opacity: 0.7;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
 
 
+.time-and-section {
+    margin-top: 1em;
+    /* margin-bottom: 2em; */
+    display: flex;
+    justify-content: space-between;
 
+    & :is(a, a:visited) {
+        color: var(--bodyColor);
+    }
+}
 
 .wordcount {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid;
     padding-bottom: 0.3em;
-    margin-top: 1em;
+    margin: 1em auto 3em;
+}
+
+.summary {
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .highlight {
     /* overflow-x: scroll; */
     overflow-x: hidden;
-    max-width: 650px;
+    /* max-width: 650px; */
 }
 .highlight:hover {
     max-width: 100%;
@@ -188,15 +274,24 @@ pre {
     white-space: pre-wrap;
 }
 pre, code {
-    font-family: 'Roboto Mono', georgia;
-    font-size: 90%;
-    color: green;
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-size: 80%;
+    color: var(--codeColor);
+    font-weight: 400;
 }
 
 img {
     max-width: 100%;
 }
 
+.tags ul {
+    margin-top: 4em;
+    border-top: 1px solid #aaa5;
+    list-style-type: none;
+    padding: 0.5em 0;
+    display: flex;
+    gap: 0.75em;
+}
 
 .page404 {
     /* width: 40%; */
@@ -226,16 +321,16 @@ ul.listpage {
 }
 
 ul.listpage>li {
-    background-color: rgb(139, 133, 120);
-    font-size: 0.75em;
+    background-color: var(--boxBgColor);
 }
 
 ul.listpage > li > a {
     padding: .5em 1em;
     display: block;
     height: 100%;
+    font-size: 0.85em;
     /* font-size: 1rem; */
-    color: var(--bgColor);
+    color: var(--boxColor);
     transition: 0.5s;
 }
 
@@ -245,13 +340,14 @@ ul.listpage > li a::first-line {
 
 ul.listpage > li > a time {
     font-size: 0.8em;
-    color: var(--headingColor);
-    font-family: oswald;
+    color: var(--dateColor);
+    font-family: var(--headingFont);
+    font-weight: 400;
     letter-spacing: 1.1px;
 }
 
 ul.listpage > li > a:hover {
-    background-color: orangered;
+    background-color: var(--boxHoverBg);
 }
 
 

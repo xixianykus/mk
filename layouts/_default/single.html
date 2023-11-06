@@ -1,15 +1,24 @@
 {{ define "main" }}
 
     <main>
-        <h1>{{ .Title }}</h1>
+        <header class="article">
+            <h1>{{ .Title }}</h1>
+            {{ with .Section }}
+            <div class="section text_small">Posted in: <a href="/{{ . }}/">{{ . | title }}</a></div>
+            {{ end }}
+        </header>
         {{ $last := .Lastmod.Format "2.1.2006" }}
         {{ $created := .Date.Format "2.1.2006" }}
-        <time>Created on {{ .Date.Format "Monday, 2 January, 2006" }} {{ if ne $last $created }}<em>&mdash;Updated on: {{ $last }}</em>{{ end }}</time>
+            <time class="text_small">Created on {{ .Date.Format "Monday, 2 January, 2006" }} {{ if ne $last $created }}<em>&mdash;Updated on: {{ $last }}</em>{{ end }}</time>
 
-        <div class="wordcount">
+        <div class="wordcount text_small">
             <div>Words: {{ .WordCount }}</div>
             <div>Reading time: {{ .ReadingTime }} min</div>
         </div>
+
+        {{ with .Summary }}
+            <p class="summary">{{ . }}</p>
+        {{ end }}
                 
         {{ .Content }}
         <!-- This is a Hugo variable to grab the content from the MD files -->
@@ -29,17 +38,14 @@
         {{ with .Params.Tags }}
             <div class="tags">
                 <ul>
+                    <li>Tagged with:</li>
                     {{ range . }}
-                    <li>{{ . }}</li>
+                    <li><a href="/tags/{{ . }}/">{{ . }}</a></li>
                     {{ end }}
                 </ul>
             </div>
         {{ end }}
         
     </main>
-
-    {{ partial "footer" . }}
-
-    <!-- This grabs the code from partials/footer.html -->
 
 {{ end }}

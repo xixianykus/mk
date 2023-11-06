@@ -3,6 +3,8 @@ title: "CMS Config File"
 date: 2021-10-17T19:41:30+01:00
 draft: false
 summary: "The CMS config file"
+tags: 
+- Decap CMS
 ---
 
 Here is what the configuration file for the Netlify CMS looks like. Hover to expand.
@@ -11,18 +13,18 @@ Here is what the configuration file for the Netlify CMS looks like. Hover to exp
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-# local_backend: true # used to allow edits of local repo
-display_url: https://mariannakeen.netlify.app  # displays the url in the CMS interface
-site_url: https://mariannakeen.netlify.app # used by the CMS for various things
-publish_mode: editorial_workflow # hopefully will allow the use of draft edits
-logo_url: https://mariannakeen.netlify.app/images/artboard-1.png
+# local_backend: true # used when running the CMS locally
+display_url: https://testsitezero.netlify.app  # displays the url in the CMS interface
+site_url: https://testsitezero.netlify.app # used by the CMS for various things
+publish_mode: editorial_workflow # allows the use of draft edits
+logo_url: https://testsitezero.netlify.app/images/artboard-1.png
 media_folder: "static/images"
 media_library:
   name: cloudinary
   config:
     cloud_name: xxxxxxxxxx
     api_key: xxxxxxxxxxx
-public_folder: "/images"  # this where images are found in the published site. img src= use this path.
+public_folder: "/images"  # where images are found in the published site. img src= uses this for the path.
 collections:
   - name: 'blog'
     label: 'Blog'

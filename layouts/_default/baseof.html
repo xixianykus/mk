@@ -7,14 +7,15 @@
 
         <div class="container">
 
-        {{ partial "header" . }}
+        {{ partialCached "header" . }}
 
-        {{ partial "sidebar" . }}
+        {{ partialCached "sidebar" . }}
 
-        {{ block "main" . }}
+        {{ block "main" . }}{{ end }}
 
-        {{ end }}
-    </div>
+        {{ partialCached "footer" . }}
+
+        </div>
 </body>
 
 </html>

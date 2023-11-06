@@ -6,14 +6,8 @@ summary: Running Decap CMS locally
 tags:
   - git
   - Decap CMS
-  - badger
-  - fox
-Address:
-  line_1: balls
-  town: fuck off
 image: /images/ravenstor-green-alternative.jpg
 ---
-![Tideswell Dale](/images/tideswell-dale.jpg)
 
 You can run Decap CMS locally through the Hugo server. However first you must run the Netlify proxy server. 
 

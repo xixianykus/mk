@@ -1,15 +1,15 @@
 <footer>
-    <div>{{ .Site.Title }} &copy{{ now.Year }}</div>
+    <div><a href="/">{{ .Site.Title }}</a> &copy{{ now.Year }}</div>
     <div>
         {{ if .IsHome }}
         Last Site Update {{ .Site.LastChange.Format "2 Jan 06" }}
         {{ else if .Section }}
-        This is the {{ .Section }} {{ .Kind }}
+        <a href="/{{ .Section }}/">{{ .Section | title }}</a> {{ .Kind | title }}
         {{ else }}
         Page Update {{ .Date.Format "Sunday January 2 2006" }}
         {{ end }}
-
     </div>
+    <div class="tags-link"><a href="/tags">TAGS</a></div>
     <div>Built with <a href="https://www.gohugo.io/">Hugo v.{{ hugo.Version }}</a></div>
     <div class="admin-link"><a href="/admin/">Login</a></div>
 </footer>
