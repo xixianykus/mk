@@ -1,5 +1,5 @@
 # local_backend: true is used to allow use of the CMS locally
-local_backend: false
+local_backend: true
 
 backend:
   name: git-gateway
@@ -52,6 +52,7 @@ collections:
         required: false
         # media_folder: '/images/'
       - { label: 'Body', name: 'body', widget: 'markdown' }
+        
   - name: 'code'
     label: 'Code'
     folder: 'content/code'
@@ -62,6 +63,25 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Summary', name: 'summary', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - label: 'featured image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        # media_folder: '/images/'
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+        
+  - name: 'test'
+    label: 'Test'
+    folder: 'content/test'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link Title', name: 'linktitle', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }

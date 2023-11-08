@@ -5,9 +5,10 @@ draft: false
 summary: "A list of some of my random sites"
 tags: [Netlify]
 css:
-- ".my-sites {columns: 15ch 3}"
+- ".my-sites ul {columns: 25ch 2; list-style-type: none; padding: 0; margin: 0; }"
+- ".my-sites li {margin-bottom: 1em}"
 ---
 
-OK some broken links here marked with stars. Some need fixing, some deleting. But anyway...
+OK a list of sites ranging from the puerile and pointles to purposeful and professional. The odd broken links here marked with stars. Some need fixing, some deleting. But anyway...
 
 {{< my-sites >}}

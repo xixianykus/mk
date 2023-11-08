@@ -6,7 +6,7 @@
         {{ else if .Section }}
         <a href="/{{ .Section }}/">{{ .Section | title }}</a> {{ .Kind | title }}
         {{ else }}
-        Page Update {{ .Date.Format "Sunday January 2 2006" }}
+        Page Update {{ .Lastmod.Format "2.1.2006"  }}
         {{ end }}
     </div>
     <div class="tags-link"><a href="/tags">TAGS</a></div>

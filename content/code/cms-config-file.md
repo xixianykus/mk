@@ -7,7 +7,10 @@ tags:
 - Decap CMS
 ---
 
-Here is what the configuration file for the Netlify CMS looks like. Hover to expand.
+Here is what the configuration file for the Netlify CMS looks like. It's written in YAML.
+
+Note that the max size of the image use in the `logo_url` field is 300px wide. If it's larger it will be sized at 300px anyway. If it's smaller it's not centred so looks a little out of balance.
+
 
 ```yaml
 backend:

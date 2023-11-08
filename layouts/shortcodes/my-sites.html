@@ -1,9 +1,13 @@
 <div class="my-sites">
-    {{ range site.Data.my_sites }}
-        <a href="{{ .url }}">{{ .name | safeHTML }}</a>
-        {{ with .status }}
+    <p>There are currently {{ len site.Data.my_sites }} websites listed below.</p>
+    <ul>
+        {{ range site.Data.my_sites }}
+        <li>
+            <a href="{{ .url }}" title="Rating: {{ .rating }}">{{ .name | safeHTML }}</a>
+            {{ with .status }}
             {{ . | markdownify }}
+            {{ end }}
+        </li>
         {{ end }}
-        <br>
-    {{ end }}
+    </ul>
 </div>
