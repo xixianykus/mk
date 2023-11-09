@@ -1,5 +1,5 @@
 # local_backend: true is used to allow use of the CMS locally
-local_backend: true
+local_backend: false
 
 backend:
   name: git-gateway
@@ -28,6 +28,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link Title', name: 'linktitle', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
@@ -63,6 +64,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link Title', name: 'linktitle', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
@@ -81,7 +83,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Link Title', name: 'linktitle', widget: 'string' }
+      - { label: 'Link Title', name: 'linktitle', widget: 'string', required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
@@ -101,10 +103,6 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Link Title', name: 'linktitle', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown'}
-
-
-#    create: false
-#    slug: '{{slug}}'
-
     
