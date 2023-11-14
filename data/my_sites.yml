@@ -2,167 +2,250 @@
   url: https://aitkenaudio.netlify.app
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/789a73ec-57d6-40e5-85a7-cf027f147bc9/deploy-status)](https://app.netlify.com/sites/aitkenaudio/deploys)" 
   rating: 4
+  host: Netlify
+  about: Small site and a redesign I actually got paid for.
     
 - name: Birthday Meal
   url: https://www.birthdaymeal.tk/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/622cfbf8-73f7-40cc-8834-89787909f028/deploy-status)](https://app.netlify.com/sites/birthdaymeal/deploys)"
   rating: 2
+  host: Netlify
+  about: "Outlived it's original aim. Waiting to be repurposed"
 
 - name: Blank Try
   url: https://blank-try.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/e0820779-8ee4-4394-b286-6f20d1bcd48e/deploy-status)](https://app.netlify.com/sites/blank-try/deploys)"
   rating: 4
+  host: Netlify
+  about: Local site that became useful after dumping lotsa of info on there. Also has a music section.
 
 - name: Bongus
   url: https://bongus.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/bb8b1692-ed40-4ba1-96fc-55a1d861d1e3/deploy-status)](https://app.netlify.com/sites/bongus/deploys)"
   rating: 1
+  host: Netlify
+  about: Preformatted test site for Netlify CMS that needs pulling.
 
 - name: Christmas Fist
   url: https://xmasmessage.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/55de18e0-f531-498e-9240-9d2d0ae1d474/deploy-status)](https://app.netlify.com/sites/xmasmessage/deploys)"
   rating: 2
+  host: Netlify
+  about: Oh dear. Not for the faint of heart.
 
 - name: Climbers Overgrading
   url: https://climbersovergrading.netlify.app
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/e88fa73a-91dd-4e50-b395-405315e3b612/deploy-status)](https://app.netlify.com/sites/climbersovergrading/deploys)"
   rating: 1
+  host: Netlify
+  about: Some notes in a text file were turned into a web site.
 
 - name: Craig Foden
   url: https://www.craigfoden.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/5473e698-5459-48a1-a94e-d899cdc9a672/deploy-status)](https://app.netlify.com/sites/craigfoden/deploys)"
   rating: 4
+  host: Netlify
+  about: Modded theme for massage artist.
 
 - name: Cuntfuckers
   url: https://www.cuntfuckers.cf/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/15e9f814-c253-4e4a-82f9-b1c3e2505aa3/deploy-status)](https://app.netlify.com/sites/cuntfuckers/deploys)"
   rating: 3
+  host: Netlify
+  about: Born of frustration. When Covid hit people used video conferencing and for some it was hard to get a word in. Not anymore. Choice selection of full sized words to throw into the conversation.
 
 - name: CSS Geek
   url: https://cssgeek.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e8b41a9-b815-44c5-b5db-0f925c9ce06d/deploy-status)](https://app.netlify.com/sites/cssgeek/deploys)"
   rating: 4
+  host: Netlify
+  about: Small local site grew into something much big. Dumping ground for CSS info.
 
 - name: CSS Revolution
   url: https://cssrevolution.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/88e9bee0-888c-4d35-87ec-230bf2b9b60e/deploy-status)](https://app.netlify.com/sites/cssrevolution/deploys)"
   rating: 4
+  host: Netlify
+  about: Used for coding experiments.
 
 - name: Cute Foxes
   url: https://cute-foxes.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/091d196b-0dc0-4eb6-bef9-d1d6de305918/deploy-status)](https://app.netlify.com/sites/vigorous-bohr-676d07/deploys)"
   rating: 1
+  host: Netlify
+  about: Ugh. Not sure why this even exists. Well perhaps because the url cutefoxes.cf was available.
 
 - name: Cyamodus
   url: https://www.cyamodus.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/b650c07a-f362-44bc-a8e3-547d72700751/deploy-status)](https://app.netlify.com/sites/cyamodus/deploys)"
   rating: 3
+  host: Netlify
+  about: For years a broken static site, it was converted to a Hugo site and now has some sound and animations.
 
 - name: Duke Woodwork
   url: https://dukewoodwork.netlify.app
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/522e2ff4-81e5-497c-80a8-97a44a749b13/deploy-status)](https://app.netlify.com/sites/dukewoodwork/deploys)"
   rating: 1
+  host: Netlify
+  about: A barely started project for a friend that was quickly abandoned.
 
 - name: Ecosnout
   url: https://ecosnout.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/c9f93a03-b35e-4957-b5df-5400035d6be3/deploy-status)](https://app.netlify.com/sites/ecosnout/deploys)"
   rating: 3
+  host: Netlify
+  about: An old, old site when screens were low res.
 
 - name: Empty
   url: https://xixianykus.gitlab.io/empty/
   rating: 3
+  host: Gitlab
+  about: A purely static site with some CSS animations.
+
+- name: Faunacate
+  url: https://xixianykus.gitlab.io/empty/
+  rating: 4
+  host: Vercel
+  about: Big site with lots of imagry and some useful stuff too.
 
 - name: Garfish &starf;
   url: https://www.garfish-1.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/a8b7284d-8a99-4b4b-ad6d-49caaa459434/deploy-status)](https://app.netlify.com/sites/garfish-1/deploys)"
   rating: 2
+  host: Netlify
+  about: Time to call it a day on this thing.
 
 - name: GitQuest
   url: https://gitquest.gq
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/a145da05-e41b-4201-a3d0-09a5c5e16484/deploy-status)](https://app.netlify.com/sites/gitquest/deploys)"
   rating: 4
+  host: Netlify
+  about: My dumping ground for all things git.
 
 - name: Graphic Novel Reading Room
   url: https://graphicnovelreadingroom.com/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/daf56319-4b7d-458e-905b-61b45f3275c2/deploy-status)](https://app.netlify.com/sites/gnrr/deploys)"
   rating: 4
+  host: Netlify
+  about: Small site for a friend.
+
+- name: Hugo 120
+  url: https://graphicnovelreadingroom.com/
+  status: ""
+  rating: 2
+  host: Netlify
+  about: A site to experiment with Decap CMS that is growing in other directions, as they often do.
 
 - name: JS Blog
   url: https://js-blog.pages.dev/
   rating: 5
+  host: Cloudflare
+  about: My JS tutorials and experiments.
 
 - name: Sport Climbs JS Notes
   url: https://sportsclimbs.github.io/js-notes/
   rating: 2
+  host: "??"
+  about: Why does this still exist?
 
 - name: Learn Flexbox
   url: https://learnflexbox.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/66211786-ee9f-41b8-9a45-cb72d654ced6/deploy-status)](https://app.netlify.com/sites/learnflexbox/deploys)"
   rating: 2
+  host: Netlify
+  about: Small but persistent it seems.
 
 - name: Learn Hugo
   url: https://learninghugo.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/a39662b2-7ea7-4e49-8fa1-7040a10e740f/deploy-status)](https://app.netlify.com/sites/learninghugo/deploys)"
   rating: 4
+  host: Netlify
+  about: Dumping ground for all things Hugo static site generator.
   
 - name: Massage-1
   url: https://massage-1.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/1f4c93c2-9879-4909-b399-6d9d3ddabea1/deploy-status)](https://app.netlify.com/sites/massage-1/deploys)"
   rating: 2
+  host: Netlify
+  about: A theme for a demo. 
   
 - name: Minimal
   url: https://minimalhugo.vercel.app/
   rating: 3
+  host: Vercel
+  about: Experiment into creating a Hugo site with the minimal amount of code whilst still looking OK. Site builds in one fifteth of a second.
   
 - name: More Learning
-  url: https://www.morelearning.netlify.app/
+  url: https://more-learning.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/fd77e874-ac8c-4b64-8604-c9df100312a7/deploy-status)](https://app.netlify.com/sites/more-learning/deploys)"
   rating: 4
+  host: Netlify
+  about: Varied web dev stuff from bash to design and photography.
 
 - name: Moon Landings
   url: https://www.moonlandings.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/12edc556-4182-495a-a535-9dc56023a32b/deploy-status)](https://app.netlify.com/sites/moonlandings/deploys)"
   rating: 4
+  host: Netlify
+  about: Did we really go to the moon? A copy of stuff from elsewhere but tidied up considerably.
 
 - name: Peaceful Montalcini
   url: https://peaceful-montalcini-74db69.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/8d72ea4b-9f32-4065-b2dd-c0cd9e798bdf/deploy-status)](https://app.netlify.com/sites/peaceful-montalcini-74db69/deploys)"
   rating: 1
+  host: Netlify
+  about: Ready to be pulled.
 
 - name: Serverless Functions
   url: https://sfunctions.netlify.app
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/4c790518-f41a-48bb-b286-16cb5a531f04/deploy-status)](https://app.netlify.com/sites/sfunctions/deploys)"
   rating: 1
+  host: Netlify
+  about: brief experiment into Netlify's serveless functions. Needs expanding.
 
 - name: Shefweb
   url: https://shefweb.com/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/c195fa13-a3df-4f49-89fe-ec70889418a5/deploy-status)](https://app.netlify.com/sites/shefweb/deploys)"
   rating: 2
+  host: Netlify
+  about: Webdesing company that hasn't happened yet. Standing by.
 
 - name: SpoonieKids
   url: https://spooniekids.co.uk/
   rating: 1
+  host: Cloudflare
+  about: Awaiting instructions.
 
 - name: Sport Climbs
   url: https://sportclimbs.uk/
   rating: 5
+  host: Netlify
+  about: Big climbing web site that's well used and appreciated.
 
 - name: Steve and Fran
   url: https://steveandfran.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/ebb0eb52-bd9d-40e9-ae49-1aa16b1348a5/deploy-status)](https://app.netlify.com/sites/steveandfran/deploys)"
   rating: 2
+  host: Netlify
+  about: Old, old, old site from back in the day.
 
 - name: Test Site Zero
   url: https://testsitezero.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/351a1699-7025-4892-bb65-cada87db078e/deploy-status)](https://app.netlify.com/sites/testsitezero/deploys)"
   rating: 3
+  host: Netlify
+  about: A site for a friend that was recently repurposed into, you guessed it, more blogging on web dev type stuff.
 
 - name: The JS Way
   url: https://thejsway.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/c35f6aa1-486a-4d6c-b8ed-ca91c819819b/deploy-status)](https://app.netlify.com/sites/thejsway/deploys)"
   rating: 3
+  host: Netlify
+  about: Good book on Javascript made into a web site. 
 
 - name: The Periodic Table
   url: https://the-periodic-table.netlify.app/
   status: "[![Netlify Status](https://api.netlify.com/api/v1/badges/cac35247-9d9f-44c4-aeea-9e8848aee5e9/deploy-status)](https://app.netlify.com/sites/the-periodic-table/deploys)"
   rating: 3
+  host: Netlify
+  about: Another old site that could do with some love.
