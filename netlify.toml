@@ -1,5 +1,6 @@
 [context.production.environment]
-  HUGO_VERSION = "0.120.4"
+  HUGO_VERSION = "0.123.8"
+  
 
 # [build]
 #   command = "Hugo -D" site was not rebuilt
