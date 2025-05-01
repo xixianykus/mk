@@ -1,4 +1,4 @@
-baseURL = "https://testsitezero.netlify.com/"
+baseURL = "https://testsitezero.netlify.app/"
 languageCode = "en-us"
 title = "TESTSITE ZERO"
 enableGitInfo = true
