@@ -17,7 +17,7 @@ Full head code:
 
 ```go-html-template
 {{ $css := resources.Get "css/main.css" }}
-{{ $style := $css | resources.PostCSS }}
+{{ $style := $css | css.PostCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 ```
 

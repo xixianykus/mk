@@ -1,7 +1,7 @@
     {{/*  <link rel="stylesheet" href="{{ "css/old.css" | relURL }}">  */}}
 
     {{ $css := resources.Get "css/main.css" }}
-    {{ $style := $css | resources.PostCSS }}
+    {{ $style := $css | css.PostCSS }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
 
     {{- with .Params.css }}

@@ -1,2 +1,4 @@
 READLOCAL.md
 node_modules/
+public/
+.gitignore

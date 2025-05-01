@@ -14,3 +14,11 @@ git fetch
 git pull
 git remote show origin
 ```
+
+Another way is:
+
+```bash
+git remote update
+
+git status
+```

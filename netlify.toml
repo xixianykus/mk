@@ -1,6 +1,12 @@
-[context.production.environment]
-  HUGO_VERSION = "0.123.8"
-  
+# This file is used to configure the Netlify build settings for a Hugo site.
+# It specifies the build command, publish directory, and environment variables.
 
-# [build]
-#   command = "Hugo -D" site was not rebuilt
+[build.environment]
+GO_VERSION = "1.24"
+HUGO_VERSION = "0.147.0"
+NODE_VERSION = "22"
+TZ = "Europe/London"
+
+[build]
+publish = "public"
+command = "git config core.quotepath false && hugo --gc"
