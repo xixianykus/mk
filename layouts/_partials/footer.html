@@ -2,7 +2,7 @@
     <div><a href="/">{{ .Site.Title }}</a> &copy{{ now.Year }}</div>
     <div>
         {{ if .IsHome }}
-        Site Updated: {{ now.Format "2 Jan 06" }}
+        Site Updated: {{ now.Format "2 Jan 06" }} at {{ now.Format "15:04" }}
         {{ else if .Section }}
         <a href="/{{ .Section }}/">{{ .Section | title }}</a> {{ .Kind | title }}
         {{ else }}
