@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <p style="display: none">{{ time.Now | time.Format "2006-01-02 at 15:04:05" }}</p>
     {{ template "_internal/opengraph.html" . }}
 
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
