@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2019-11-27
-draft: false
 summary: "A bit about me and what I do"
 draft: true
 ---

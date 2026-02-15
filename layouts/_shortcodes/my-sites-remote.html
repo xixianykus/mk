@@ -1,0 +1,16 @@
+{{ $url := "https://raw.githubusercontent.com/xixianykus/sites/refs/heads/master/sites.json" }}
+
+{{/*  <p>{{ $key  }} <br> {{ $val }}</p>  */}}
+
+<ol class="site-list">
+    {{ range  resources.GetRemote $url | unmarshal -}}
+        <li><a href="{{ index . "url" }}">{{ index . "name" }}</a><br>{{ index . "about" }}
+            <p class="hosted-by">Hosted by: {{ index . "host" -}}
+                {{- with index . "status" -}}
+                    {{- . | markdownify }}
+                {{- end }}
+
+            </p>
+        </li>
+    {{- end }}
+</ol>
